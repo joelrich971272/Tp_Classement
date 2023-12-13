@@ -1,6 +1,6 @@
 public enum Categorie {
-    Elite_1,
-    Elite_2,
+    ELITE_1,
+    ELITE_2,
     M1,
     M2,
     M3,
