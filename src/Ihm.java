@@ -195,6 +195,15 @@ public class Ihm {
                         System.err.println("Saisie invalid veuillez recommencez");
                     }
                     lister();
+                case 8 :
+                    System.out.println("Quel coureur voulez-vous suprimer saisie un chiffre entre 1 et 1000?");
+                    int numeroCoureur = In.readInteger() ;
+                    gestion.coureurs.remove(numeroCoureur-1) ;
+                    lister();
+                    break;
+                case 9 :
+
+                    break;
             }
 
     }
